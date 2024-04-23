@@ -5,16 +5,27 @@
     margin: 0;
     padding: 0;
     position: relative;
-    background-color: #FBFADA; 
+    background-image: url('alam.jpeg'); /* Ubah 'alam.jpeg' menjadi nama file gambar Anda */
+    background-size: cover; /* Menyesuaikan ukuran gambar dengan area body */
+    background-position: center; /* Posisi gambar di tengah */
+    background-blend-mode: multiply; /* Menggunakan mode campuran untuk menyatukan latar belakang dengan konten */
 }
 
 .quote {
-    font-family: 'Nama Font Baru', sans-serif; 
-    font-size: 16px; /* Ukuran font */
+    font-family: 'Concert One'; 
+    font-size: 25px; /* Ubah ukuran font menjadi lebih besar */
     font-style: italic; /* Gaya font */
     text-align: center; /* Penataan teks */
     margin-top: 20px; /* Jarak dari atas */
+    color: #ffffff; /* Ubah warna font menjadi warna yang diinginkan */
 }
+
+.concert-one-regular {
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 
 header {
     background-color: #436850;
